@@ -110,10 +110,10 @@
         </div>
 
         <div
-          class="flex flex-col w-full items-center md:items-start justify-end px-4 md:px-0 mt-10 md:mt-[30px]"
+          class="flex flex-col w-full items-center md:items-start justify-end mt-10 md:mt-[30px]"
         >
           <div
-            class="flex flex-col items-center md:items-start md:max-w-[313px] w-full"
+            class="flex flex-col items-center md:items-start max-w-[350px] md:max-w-[313px] w-full"
           >
             <button
               class="flex items-center justify-center px-10 py-2 w-full bg-brand-red rounded-[10px] shadow-[2px_2px_10px_#00e7f9]"
@@ -163,10 +163,10 @@
     </div>
 
     <div
-      class="absolute right-[144px] top-[80px] w-auto md:flex justify-end lg:z-0 hidden"
+      class="absolute right-[144px] top-30 lg:top-[80px] w-auto md:flex justify-end lg:z-0 hidden"
     >
       <img
-        class="w-[666px] h-auto max-h-[800px] object-contain"
+        class="w-[566px] lg:w-[666px] h-auto max-h-[800px] object-contain"
         alt="Hero mockup"
         src={BannerDesktop}
       />
