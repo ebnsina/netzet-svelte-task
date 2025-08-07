@@ -51,11 +51,11 @@
       class="max-w-5xl mx-auto overflow-y-hiddens sm:px-6 xl:px-0 relative flex flex-col md:flex-row md:items-center md:justify-between gap-6 md:gap-0"
     >
       <div class="md:hidden w-full relative">
-        <div class="absolute left-1/2 -translate-x-1/2 z-20 mt-4 md:mt-0">
+        <div class="absolute left-1/2 -translate-x-1/2 z-20 mt-4 lg:mt-0">
           <img src={Logo} alt="Logo" class="md:hidden w-[105px] h-[45px]" />
         </div>
         <div class="flex justify-center w-full relative z-0">
-          <img class="md:hidden w-full" alt="Hero mockup" src={Banner} />
+          <img class="md:hidden w-[390px] h-[426px]" alt="Hero mockup" src={Banner} />
         </div>
       </div>
 
@@ -63,11 +63,11 @@
         class="md:w-2/3 w-full flex flex-col items-center md:items-start z-10 relative"
       >
         <div
-          class="flex flex-col items-center md:items-start pb-0 px-4 md:px-0"
+          class="flex flex-col items-center md:items-start pb-0 px-4 lg:px-0"
         >
-          <div class="max-w-[350px] md:max-w-[516px] md:mt-[57px]">
+          <div class="max-w-[350px] md:max-w-[516px] lg:mt-[57px]">
             <h1
-              class="z-10 w-full font-urbanist-sans font-extrabold md:font-bold text-white text-[25px] md:text-[35px] text-center md:text-left -mt-[86px] md:-mt-0 leading-[1.15]"
+              class="z-10 w-full font-urbanist-sans font-extrabold md:font-bold text-white text-[25px] md:text-[35px] text-center md:text-left -mt-[86px] lg:-mt-0 leading-[1.15]"
             >
               Want to Turn Social Media Into a Profitable Career?
             </h1>
