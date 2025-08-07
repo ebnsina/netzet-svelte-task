@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+:root {
+  --font-figtree-sans: "Figtree", sans-serif;
+  --font-urbanist-sans: "Urbanist", sans-serif;
+}
+
+@theme {
+  --background: #000000;
+  --text: #ffffff;
+  --color-brand-red: #FC004E;
+  --color-brand-cyan: #00E7F9;
+  --color-brand-gray: #A9A9A9;
+  --color-brand-gray-light: #aaaaaa;
+  --font-figtree-sans: var(--font-figtree-sans);
+  --font-urbanist-sans: var(--font-urbanist-sans);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font-figtree-sans);
+}
